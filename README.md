@@ -55,7 +55,7 @@ The permutation p has s(p) = 2 when xk = 1 where k is
 in {2, 3, ..., n} / {j}.
 There are (n-1)(n-2) permutations with 3 places fixed,
 so s(p) = 2 for (n-1)(n-2)(n-3)! = (n-1)!
-Reducing our trails to 19! - 3*18! (about 103,000,000,000,000,000) cases.
+Reducing our trials to 19! - 3*18! (about 103,000,000,000,000,000) cases.
 
 Counting cases for s(p) = 3 is not so simple because the second swop
 has different formats depending on whether j<k or k>j and some of these
