@@ -12,14 +12,14 @@ Start by shuffling n cards labeled 1, 2, ..., n.
 If top card is m, reverse the order of the top m cards, then repeat.  
 a(n) is the maximal number of steps before top card is 1.  
 
-| n |  1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 
+| n | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 
+|---|---|---|---|---|---|---|---|---|---|--- |--- |--- |--- |--- |--- |--- |--- |--- |
 |a(n)| 0| 1| 2| 4| 7| 10 |16| 22 |30| 38| 51| 65| 80| 101| 113| 139| 159| 191|
 
 If s(permutation) denotes the number of topswops, trivially,  
-s([1, x, x, ..., x]) = 0, where the x's are an arbitrary permutation  
-of [2, 3, ..., n].
+s([1, x, x, ..., x]) = 0, where the x's are an arbitrary permutation of [2, 3, ..., n].
 
-An example for n=6: p = [5, 6, 1, 4, 2, 3]  
+An example for n=6: p = [5, 6, 1, 4, 2, 3]    
 s(p)= 9, the swops are:  
   1. R[5, 6, 1, 4, 2] + [3] = [2, 4, 1, 6, 5, 3]
   2. R[2, 4] + [1, 6, 5, 3] = [4, 2, 1, 6, 5, 3]
