@@ -62,22 +62,25 @@ has different formats depending on whether j is less than k or j is greater than
 cases overlap.
 
 Here is a histogram for n=7:
-  s(p)=0  for 720 permutations
-  s(p)=1  for 720 permutations
-  s(p)=2  for 720 permutations
-  s(p)=3  for 648 permutations
-  s(p)=4  for 548 permutations
-  s(p)=5  for 440 permutations
-  s(p)=6  for 338 permutations
-  s(p)=7  for 268 permutations
-  s(p)=8  for 218 permutations
-  s(p)=9  for 160 permutations
-  s(p)=10 for 104 permutations
-  s(p)=11 for  65 permutations
-  s(p)=12 for  44 permutations
-  s(p)=13 for  26 permutations
-  s(p)=14 for  14 permutations
-  s(p)=15 for   5 permutations
-  s(p)=16 for   2 permutations
+
+| s(p) |   Permutations  |
+| ----: | ---------: |
+| 0 | 648 |
+| 1 | 548 |
+| 2 | 440 |
+| 3 | 648 |
+| 4 | 548 |
+| 5 | 440 |
+| 6 | 338 |
+| 7 | 268 |
+| 8 | 218 |
+| 9 | 160 |
+| 10 | 104 |
+| 11 | 65 |
+| 12 | 44 |
+| 13 | 26 |
+| 14 | 14 |
+| 15 | 5 |
+| 16 | 2 |
 
 The maximum is reached by [3, 1, 4, 6, 7, 5, 2] and [4, 7, 6, 2, 1, 5, 3].
