@@ -58,7 +58,7 @@ so s(p) = 2 for (n-1)(n-2)(n-3)! = (n-1)!
 Reducing our trials to 19! - 3*18! (about 103,000,000,000,000,000) cases.
 
 Counting cases for s(p) = 3 is not so simple because the second swop
-has different formats depending on whether j<k or k>j and some of these
+has different formats depending on whether j is less than k or j is greater than k and some of these
 cases overlap.
 
 Here is a histogram for n=7:
